@@ -1,0 +1,85 @@
+body {
+    background-image: url("8ad.jpeg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px gray;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.container {   
+    border: 2px solid pink;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    background-color: palevioletred;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+
+button {
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-shadow: 0 0 5px gray;
+    font-size: 25px
+}
+
+#increment-btn {
+    background: lightsalmon;
+}
+
+#increment-btn:hover {
+    background: lightblue;
+    color: pink;
+    text-shadow: 0 0 5px gray;
+}
+
+#save-btn {
+    background: pink;
+}
+
+#save-btn:hover {
+    background: lightcyan;
+    color: pink;
+    text-shadow: 0 0 5px gray;
+}
+
+#reset-btn {
+    background: lightcoral;
+}
+
+#reset-btn:hover {
+    background: lightskyblue;
+    color: pink;
+    text-shadow: 0 0 5px gray;
+}
+
+p {
+    font-size: 20px;
+}
